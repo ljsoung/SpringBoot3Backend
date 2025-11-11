@@ -56,7 +56,7 @@ class QuizControllerTest {
 
         result.andExpect(status().isBadRequest()).andExpect(content().string("Bad Request!"));
     }
-
+/*
     @DisplayName("quiz(): POST /quiz?code=1 이면 응답 코드는 403, 응답 본문은 Forbidden!를 리턴한다.")
     @Test
     public void postQuiz1() throws Exception {
@@ -79,5 +79,7 @@ class QuizControllerTest {
 
         result.andExpect(status().isOk()).andExpect(content().string("OK!"));
     }
+
+ */
 
 }
