@@ -11,7 +11,7 @@ import java.time.Duration;
 @Service
 public class TokenService {
 
-    private TokenProvider tokenProvider;
+    private final TokenProvider tokenProvider;
     private final RefreshTokenService refreshTokenService;
     private final UserService userService;
 
